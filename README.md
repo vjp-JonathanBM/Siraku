@@ -8,11 +8,12 @@
 `BO` capa intermedia entre la capa de persistencia y negocio para garantizar que la transferencia de datos se realiza correctamente.
 ### CAPA DE NEGOCIO
 
-`Service` Interfaz con lola definición de los métodos a implementar .
+`Service` Interfaz con lola definición de los métodos a implementar.
+
 `ServiceImpl` Implementación de los métodos sobre las operaciones que realizará la aplicación.
 
 ### MAPEO NEGOCIO <-> PRESENTACIÓN
-`DTO` capa intermedia entre la capa de negocio y presentacón para garantizar que la transferencia de datos se realiza correctamente.
+`DTO` capa intermedia entre la capa de negocio y presentación para garantizar que la transferencia de datos se realiza correctamente.
 
 ### CAPA DE PRESENTACIÓN
 `Controller` Contiene la llamada a los métodos del servicio para realizar las operaciones determinadas anteriormente.
